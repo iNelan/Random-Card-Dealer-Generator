@@ -1,5 +1,23 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  background-color: blue;
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-juego-poker-casino-colores-negro-dorado_1017-23678.jpg?w=2000");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card {
+  margin: 10% auto;
+  background-color: white;
+  height: 400px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.icono {
+  height: 33%;
+  font-size: 75px;
 }
